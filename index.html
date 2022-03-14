@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time since my birthday</title>
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js" type="module"></script>
+</head>
+
+<body>
+    <div class="box">
+        <h3>Age Calculator</h3>
+        <h4>Enter your date of birth</h4>
+
+        <form>
+            <div class="box-holder">
+                <div class="small-box">
+                    <p class="title">Day</p>
+                    <input type="number" id="day" placeholder="dd" minlength="1" maxlength="2" required>
+                </div>
+                <div class="small-box">
+                    <p class="title">Month</p>
+                    <input type="number" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+                </div>
+                <div class="small-box">
+                    <p class="title">Year</p>
+                    <input type="number" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
+                </div>
+            </div>
+            <input type="submit" class="submit" id="submit" name="submit" value="Submit">
+        </form>
+        <div class="result">Your have: <span></span> </div>
+    </div>
+</body>
+
+</html>
